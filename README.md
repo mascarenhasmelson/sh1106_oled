@@ -1,3 +1,4 @@
+```
 sudo tee /etc/systemd/system/oled-monitor.service <<EOF
 [Unit]
 Description=OLED System Monitor
@@ -12,3 +13,4 @@ WantedBy=multi-user.target
 EOF
 
 sudo systemctl enable --now oled-monitor
+```
